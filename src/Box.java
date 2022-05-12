@@ -1,6 +1,6 @@
 public class Box {
-    int width;
-    int height;
+    public int width;
+    public int height;
 
     public Box(int w, int h) {
         this.width = w;
@@ -20,7 +20,7 @@ public class Box {
         }
     }
 
-    public Box dupllicate() {
+    public Box duplicate() {
         Box temp = new Box(this.width, this.height);
         return temp;
     }
